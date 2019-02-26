@@ -28,7 +28,9 @@ public class Reto5 {
             System.out.println("Los lados tienen que ser mayores que 0.");
         }
         
-        
+        Hipotenusa = (LadoA * LadoA + LadoB * LadoB);
+        System.out.println(Hipotenusa);
+        System.out.println("El valor de la hipotenusa es: " + Hipotenusa);
     }
     
 }
